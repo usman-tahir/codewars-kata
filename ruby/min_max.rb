@@ -1,8 +1,4 @@
 
-def min(list)
-  list.sort().slice(0)
-end
-
-def max(list)
-  list.sort().slice(-1)
+def min_max(l)
+  [l.min(), l.max()]
 end
