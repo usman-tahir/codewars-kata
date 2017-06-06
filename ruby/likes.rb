@@ -13,4 +13,3 @@ def likes(names)
     "#{names.slice(0)}, #{names.slice(1)} and #{names.size() - 2} others like this"
   end
 end
-
